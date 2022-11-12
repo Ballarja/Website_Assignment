@@ -1,5 +1,8 @@
 body{
     background-color:#74959A;
+    margin: 8px;
+    display:block;
+
 }
 .button {
   background-color: transparent;
@@ -16,9 +19,21 @@ body{
   border-radius: 50%;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 p {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   img{
     border-radius:50%;
+  }
+  .funParagraph{
+    color: green;
   }
