@@ -10,11 +10,15 @@
         h1 {text-align: center;}
         div {text-align: center;}
         h2  {text-align: center;}
+        .experience_button {background-color: #4CAF50;} /* Green */
         
     </style>
     <link rel ="stylesheet" href = "style.css">
 </head>
 <body>
+    <header id = "mainHeading"> 
+    </header>
+
     <header>
         <h1>My Resume Website</h1>
         <div>
@@ -31,60 +35,77 @@
                     <img src = "images/Linkedin_Logo.PNG", alt = "LinkedIn_Image" width="50px", height="50px">
                 </button>   
             </a> 
-        </div>    
+        </div>   
+        <div id = "contact info" class = "contactInfo">
+            <h2><b><em>James Ballard</em></b></h2>
+                <p>Address: 5209 Pine Ridge, Godfrey, IL, 62035</p>
+                <p>Mobile: 618-801-5200</p>
+                <p>Email: JamesBallard87@Hotmail.com</p>
+            </div> 
         
     </header>
     <main>
-        <h2><b><em>James Ballard</em></b></h2>
-            <p>Address: 5209 Pine Ridge, Godfrey, IL, 62035</p>
-            <p>Mobile: 618-801-5200</p>
-            <p>Email: JamesBallard87@Hotmail.com</p>
+   
 
         <article>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h2><b><u>About Me</u></b></h2>
+                  </div>
+                  <div class="flip-card-back">
+                    <p id = "aboutMe" class = "centerParagraph">I've been working as a Support Technician for 4 years now at World Wide Technology.
+                        I have experience in various Microsoft programs such as Excel, Access, OneDrive, and others.
+                        I also have experience using Oracle E-Business Suite, ServiceNow, and SalesForce.
+                        I am currently looking for a entry level Software Developer position I am self taught in Java and C# by completing Codecademy courses,
+                        Udemy tutorials, and doing courses on the site Codegym to try and improve my knowledge in Java.
+                        Most of my experience in C# comes from game development in Unity. I recently got accepted to LaunchCode's LC101 course and I'm currently working through Unit 1 of the course.
+                        I have a couple projects on my Github https://github.com/Ballarja.</p>
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-            <h2><b><u>About Me</u></b></h2>
-                <p>I've been working as a Support Technician for 4 years now at World Wide Technology.
-                I have experience in various Microsoft programs such as Excel, Access, OneDrive, and others.
-                I also have experience using Oracle E-Business Suite, ServiceNow, and SalesForce.
-                I am currently looking for a entry level Software Developer position I am self taught in Java and C# by completing Codecademy courses,
-                Udemy tutorials, and doing courses on the site Codegym to try and improve my knowledge in Java.
-                Most of my experience in C# comes from game development in Unity. I recently got accepted to LaunchCode's LC101 course and I'm currently working through Unit 1 of the course.
-                I have a couple projects on my Github https://github.com/Ballarja.</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <h2><b><u>Experience</u></b></h2>
+                      </div>
+                      <div class="flip-card-back">
+                        <p><b>SEPTEMBER, 2018 to PRESENT</b></p>
+                        <p><b>ITC Support Technician, World Wide Technology</b></p>
+                        <p>Use excel to run reports on various Sales Order to verify inventory,
+                        check the materials location systematically and see what parts are serialized.
+                        Also using oracle to locate missing material, correct issues, or capture material.
+                        We also use Salesforce to create CCCs to communicate back and forth between 
+                        departments to resolve issues.
+                        Service Now is another way to resolve issues by creating tickets</p>
+                    
+                        <p><b>SEPTEMBER, 2017 to SEPTEMBER, 2018</b></p>
+                        <p><b>L2 Warehouse Associate, World Wide Technology</b></p>
+                        <p>Using NetTerm to capture serials and asset tags, also transfer material inbound and outbound.
+                        Asset tagging material that comes through that needs to be asset tagged.
+                        Integration of material then creating a C40 and packing the material on to it.</p>
+        
+                        <p><b>OCTOBER, 2016 to AUGUST, 2017</b></p>
+                        <p><b>Warehouse Associate, Amazon</b></p>
+                        <p>Picking items then scanning them in to the system to have them ready to be packed.
+                        The job was fast paced we had to keep up with a rate that fluctuated.</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-            <h2><b><u>Experience</u></b></h2>
-
-                <p><b>SEPTEMBER, 2018 to PRESENT</b></p>
-                <p><b>ITC Support Technician, World Wide Technology</b></p>
-                <p>Use excel to run reports on various Sales Order to verify inventory,
-                check the materials location systematically and see what parts are serialized.
-                Also using oracle to locate missing material, correct issues, or capture material.
-                We also use Salesforce to create CCCs to communicate back and forth between 
-                departments to resolve issues.
-                Service Now is another way to resolve issues by creating tickets</p>
-            
-                <p><b>SEPTEMBER, 2017 to SEPTEMBER, 2018</b></p>
-                <p><b>L2 Warehouse Associate, World Wide Technology</b></p>
-                <p>Using NetTerm to capture serials and asset tags, also transfer material inbound and outbound.
-                Asset tagging material that comes through that needs to be asset tagged.
-                Integration of material then creating a C40 and packing the material on to it.</p>
-
-                <p><b>OCTOBER, 2016 to AUGUST, 2017</b></p>
-                <p><b>Warehouse Associate, Amazon</b></p>
-                <p>Picking items then scanning them in to the system to have them ready to be packed.
-                The job was fast paced we had to keep up with a rate that fluctuated.</p>
-
-                <p><b>JUNE, 2013 to OCTOBER, 2016</b></p>
-                <p><b>Prep Cook, United Methodist Village</b></p>
-                <p>Cut up vegetables and do prep work for the days meals. 
-                Also keep everything clean and occasionally help do dishes if help is needed. 
-                At the end of the shift clean and make sure everything is looking good before I leave for the day.
-                </p>
         </article>
 
         <article>
-            <h2><b><u>Education</u></b></h2>
-
-                <p><b>FEBRURARY, 2010</b></p>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h2><b><u>Education</u></b></h2>
+                  </div>
+                  <div class="flip-card-back">
+                    <p><b>FEBRURARY, 2010</b></p>
                 <p><b>CULINARY ARTS, LE CORDON BLEU</b></p>
                 <p>The school was fast paced you learned how to cook new things everyday then 
                 at the end of the week you had to cook the things you were taught that week and were graded 
@@ -98,14 +119,18 @@
                 <p><b>MAY, 2006</b></p>
                 <p><b>ALTON HIGH SCHOOL</b></p>
                 <p>Learned general studies and some electives like Commercial Arts, 
-                Digital Photography and others.</p>       
+                Digital Photography and others.</p>     
+                  </div>
+                </div>
+              </div>
+            
         </article>
         <article>
-            <h2><b><u>Skills</u></b></h2>
+            
             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    
+                    <h2><b><u>Skills</u></b></h2>
                   </div>
                   <div class="flip-card-back">
                     <h1>John Doe</h1>
@@ -114,18 +139,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
-                  </div>
-                </div>
-              </div>
+            
         </article>
 
     </main>
