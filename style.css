@@ -3,7 +3,7 @@
 }
 
 header{
-  background-image: url(images/steve-johnson-eVaxJVA2zHI-unsplash.jpg);
+  background-image: url(images/scott-webb-xhceK61Zv2g-unsplash.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -12,7 +12,7 @@ header{
 }
 
 body{
-    background-image: url(images/steve-johnson-eVaxJVA2zHI-unsplash.jpg);
+    background-image: url(images/scott-webb-xhceK61Zv2g-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -21,19 +21,13 @@ body{
 
 }
 
-main{
-  background-image: url(images/vojtech-bruzek-zMl9PjGFPWg-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  margin: 8px;
-  display:block;
-}
+
 
 .contactInfo{
   text-align: center;
   margin-top: -150px;
   padding-bottom: 25px;
+  color: white;
   
 }
 .button {
@@ -56,6 +50,7 @@ h1{
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding-top: 20px;
+  color: white;
 }
 h2{
   padding-top: 150px;
@@ -77,6 +72,9 @@ p {
     
     text-align: center;
     padding-top: 100px;
+  }
+  .footText{
+    color:white;
   }
   
 
@@ -127,7 +125,7 @@ p {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: #E9D5CA;
+    background-color: bisque;
     color: black;
     transform: rotateX(180deg);
     box-shadow: 0 24px 32px 0 rgba(0,0,0,0.5), 0 34px 100px 0 rgba(0,0,0,0.5);
