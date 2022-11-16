@@ -12,13 +12,14 @@ header{
 }
 
 body{
+
     background-image: url(images/scott-webb-xhceK61Zv2g-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     margin: 8px;
     display:block;
-
+    
 }
 
 
